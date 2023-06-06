@@ -9,7 +9,7 @@
     <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
     <meta content="Themesbrand" name="author" />
     <!-- App favicon -->
-    <link rel="shortcut icon" href="assets/images/favicon.ico">
+    <link rel="shortcut icon" href="assets/images/dap-favicon.ico">
 
     <!-- Sweet Alert css-->
     <link href="assets/libs/sweetalert2/sweetalert2.min.css" rel="stylesheet" type="text/css" />
@@ -790,9 +790,9 @@
                                     <div class="d-flex align-items-center">
                                         <h5 class="card-title mb-0 flex-grow-1">Rekod Kes</h5>
                                         <div class="flex-shrink-0">
-                                            <button type="button" class="btn btn-success add-btn" data-bs-toggle="modal" id="create-btn" data-bs-target="#showModal"><i class="ri-add-line align-bottom me-1"></i> Tambah
+                                            <button type="button" class="btn btn-success add-btn" data-bs-toggle="modal" id="create-btn" onclick="window.location.href='apps-ecommerce-add-product.html'"><i class="ri-add-line align-bottom me-1"></i> Tambah
                                                 Kes</button>
-                                            <button type="button" class="btn btn-info"><i class="ri-file-download-line align-bottom me-1"></i> Import</button>
+                                         <!--   <button type="button" class="btn btn-info"><i class="ri-file-download-line align-bottom me-1"></i> Import</button> -->
                                             <button class="btn btn-soft-danger" onClick="deleteMultiple()"><i class="ri-delete-bin-2-line"></i></button>
                                         </div>
                                     </div>
@@ -863,12 +863,12 @@
                                             </li>
                                             <li class="nav-item">
                                                 <a class="nav-link py-3 Pickups" data-bs-toggle="tab" id="Pickups" href="#pickups" role="tab" aria-selected="false">
-                                                    <i class="ri-truck-line me-1 align-bottom"></i> Kes Aktif <span class="badge bg-danger align-middle ms-1">2</span>
+                                                    <i class="ri-truck-line me-1 align-bottom"></i> Kes Aktif <span class="badge bg-danger align-middle ms-1">1</span>
                                                 </a>
                                             </li>
                                             <li class="nav-item">
                                                 <a class="nav-link py-3 Delivered" data-bs-toggle="tab" id="Delivered" href="#delivered" role="tab" aria-selected="false">
-                                                    <i class="ri-checkbox-circle-line me-1 align-bottom"></i> Kes Selesai
+                                                    <i class="ri-checkbox-circle-line me-1 align-bottom"></i> Kes Selesai <span class="badge bg-success align-middle ms-1">1</span>
                                                 </a>
                                             </li>
                                         </ul>
@@ -901,8 +901,8 @@
                                                             </div>
                                                         </th>
                                                         <td class="id"><a href="apps-ecommerce-order-details.html" class="fw-medium link-primary">#VZ2101</a></td>
-                                                        <td class="customer_name">Frank Hook</td>
-                                                        <td class="product_name">Puma Tshirt</td>
+                                                        <td class="customer_name">961013235048</td>
+                                                        <td class="product_name">Reca Seng</td>
                                                         <td class="date">20 Dec, 2021</td>
                                                         <td class="date">20 Dec, 2021</td>
                                                         <td class="case_name">Menebang pokok di tepi jalan raya</td>
@@ -912,12 +912,12 @@
                                                         <td>
                                                             <ul class="list-inline hstack gap-2 mb-0">
                                                                 <li class="list-inline-item" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" title="View">
-                                                                    <a href="apps-ecommerce-order-details.html" class="text-primary d-inline-block">
+                                                                    <a href="apps-invoices-details.html" class="text-primary d-inline-block">
                                                                         <i class="ri-eye-fill fs-16"></i>
                                                                     </a>
                                                                 </li>
                                                                 <li class="list-inline-item edit" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" title="Edit">
-                                                                    <a href="#showModal" data-bs-toggle="modal" class="text-primary d-inline-block edit-item-btn">
+                                                                    <a href="editkes.html" class="text-primary d-inline-block edit-item-btn">
                                                                         <i class="ri-pencil-fill fs-16"></i>
                                                                     </a>
                                                                 </li>

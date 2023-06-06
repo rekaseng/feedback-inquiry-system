@@ -9,7 +9,7 @@
     <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
     <meta content="Themesbrand" name="author" />
     <!-- App favicon -->
-    <link rel="shortcut icon" href="assets/images/favicon.ico">
+    <link rel="shortcut icon" href="assets/images/dap-favicon.ico">
 
     <!-- Plugins css -->
     <link href="assets/libs/dropzone/dropzone.css" rel="stylesheet" type="text/css" />
@@ -866,8 +866,8 @@
                                                         <div class="mb-3">
                                                             <label for="inputKaum" class="form-label">Kaum</label>                                                      
                                                             <select class="form-select" id="choices-category-input" name="choices-category-input" data-choices data-choices-search-false>
-                                                                <option value="Pilihkaum">Pilih Kaum</option>
                                                                 <option value="Melayu">Melayu</option>
+                                                                <option selected value="Pilihkaum">Pilih Kaum</option>
                                                                 <option value="Cina">Cina</option>
                                                                 <option value="India">India</option>
                                                                 <option value="Lain">Lain</option>
@@ -878,7 +878,7 @@
                                                         <div class="mb-3">
                                                             <label for="inputStatus" class="form-label">Status Perkahwinan</label>                                                      
                                                             <select class="form-select" id="choices-category-input" name="choices-category-input" data-choices data-choices-search-false>
-                                                                <option value="Pilihstatus">Pilih Status</option>
+                                                                <option selected value="Pilihstatus">Pilih Status</option>
                                                                 <option value="Kahwin">Kahwin</option>
                                                                 <option value="Bujang">Bujang</option>
                                                                 <option value="Bujang">IbuBapa Tunggal</option>
@@ -895,7 +895,7 @@
                                                         <div class="mb-3">
                                                             <label for="inputBahasa" class="form-label">Bahasa</label>                                                      
                                                             <select class="form-select" id="choices-category-input" name="choices-category-input" data-choices data-choices-search-false>
-                                                                <option value="Pilihkaum">Pilih Bahasa</option>
+                                                                <option selected value="Pilihkaum">Pilih Bahasa</option>
                                                                 <option value="Melayu">Melayu</option>
                                                                 <option value="Cina">Cina</option>
                                                                 <option value="Tamil">Tamil</option>
@@ -925,9 +925,8 @@
                                         </div>
                                         <div>
                                             <label>Butiran Kes</label>
-
-                                            <div id="ckeditor-classic">
-                                            </div>
+                                            <textarea class="form-control" aria-label="With textarea" rows="5" ></textarea>
+                    
                                         </div>
                                     </div>
                                 </div>
@@ -1008,7 +1007,7 @@
                                 </div>
                                 <!-- end card -->
                                 <div class="text-end mb-3">
-                                    <button type="submit" class="btn btn-success w-sm">Submit</button>
+                                    <button type="submit" class="btn btn-success w-sm" onclick="window.location.href='apps-ecommerce-orders.html'">Submit</button>
                                 </div>
                             </div>
                             <!-- end col -->
