@@ -12349,7 +12349,7 @@ span.flatpickr-weekday {
 .auth-one-bg .bg-overlay {
   background: -webkit-gradient(linear, right top, left top, from(#4c7ee3), to(#6691e7));
   background: linear-gradient(to left, #4c7ee3, #6691e7);
-  opacity: 0.9;
+  opacity: 0.5;
 }
 .auth-one-bg .shape {
   position: absolute;
